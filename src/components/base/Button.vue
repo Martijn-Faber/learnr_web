@@ -10,7 +10,6 @@
   min-height: 50px;
   padding: 8px;
   border-radius: var(--border-radius);
-  border: none;
   background-color: var(--body-lighter);
   color: var(--text-secundair);
   transition: all 0.2s ease-in-out;
@@ -19,10 +18,6 @@
 
   &:hover {
     background-color: var(--hover);
-  }
-
-  &:active {
-    opacity: 0.8;
   }
 
   &:focus {
