@@ -1,11 +1,13 @@
 :root {
 	--primary: #000000;
-    --body-lighter: #181B23;
-	--body: #10151C;
+    --body-lighter: rgb(13, 17, 23) ;
+	--body: rgb(9, 12, 16);
 	--text: #ffffff;
+	--border: 1.8px solid rgb(48, 54, 61);
+	--hover: rgb(33, 38, 45);
 
     --border-radius: 25px;
-    --placeholder: #a9a9a9;
+    --placeholder: rgb(48, 54, 61);
 
 	--gap-small: 10px;
 	--gap: 15px;
