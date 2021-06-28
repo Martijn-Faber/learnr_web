@@ -36,3 +36,20 @@ a {
     text-decoration: none;
     cursor: pointer;
 }
+
+i {
+    cursor: pointer;
+}
+
+::placeholder {
+  color: var(--placeholder);
+  opacity: 1;
+}
+
+:-ms-input-placeholder {
+  color: var(--placeholder);
+}
+
+::-ms-input-placeholder {
+  color: var(--placeholder);
+}
